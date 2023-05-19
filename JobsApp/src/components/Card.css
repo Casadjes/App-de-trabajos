@@ -1,0 +1,67 @@
+.card {
+	width: 230px;
+	height: 340px;
+	display: flex;
+	flex-direction: column;
+	background-color: #fff;
+	border-radius: 12px;
+	box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+.card img {
+	border-radius: 12px 12px 0 0;
+	width: 100%;
+	height: 60%;
+	object-fit: cover;
+}
+
+.card__info {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 10px;
+	width: 100%;
+	height: 40%;
+}
+.userName {
+	font-weight: 600;
+	font-size: 17px;
+}
+
+.card__info--job {
+	font-size: 14px;
+}
+
+.card__info--rating {
+	width: 100%;
+	margin: 10px 0;
+	display: flex;
+	align-items: center;
+}
+.card__info--rating span {
+	margin-left: 10px;
+	font-size: 12px;
+	color: #909090;
+}
+
+.seeMore {
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	font-weight: 400;
+	color: #fff;
+	border: 1px solid #000039;
+	cursor: pointer;
+	background-color: #bab986;
+	background-image: linear-gradient(90deg, #000039, #3e3e53);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: left bottom;
+	transition: background-size 0.5s ease, transform 0.3s ease;
+}
+
+.seeMore:hover {
+	background-size: 100% 0%;
+	color: #000039;
+	font-weight: 600;
+	transform: translateY(-3px);
+}

@@ -1,0 +1,35 @@
+.filterCategory {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px;
+	border-radius: 12px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	transition: transform 0.3s ease, box-shadow 0.5s ease;
+}
+.filterCategory.clicked {
+	background-color: #f8f6f6;
+	box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+	transform: translateY(-3px);
+}
+.filterCategory:hover {
+	transform: translateY(-3px);
+	cursor: pointer;
+	box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+.filterCategoryName {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.filterAvailable {
+	width: 30px;
+	height: 30px;
+	display: grid;
+	place-content: center;
+	border-radius: 50%;
+	background-color: #bab986;
+}

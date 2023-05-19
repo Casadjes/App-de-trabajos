@@ -1,0 +1,9 @@
+.footer {
+	width: 100%;
+	background-color: #000039;
+	min-height: 50vh;
+	margin-top: 50px;
+}
+.footer h2 {
+	color: #fff;
+}

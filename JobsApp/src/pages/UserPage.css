@@ -1,0 +1,46 @@
+.userCard {
+	width: 100%;
+	min-height: 100vh;
+	padding: 0 120px;
+}
+
+.userCard__content {
+	width: 100%;
+	height: 100vh;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 35% 1fr;
+}
+
+.userCard__content--top {
+	grid-area: 1/1/3/2;
+	width: 100%;
+	height: 100%;
+	background-color: crimson;
+}
+.userCard__img--container {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.userCard__img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	border: 10px #fff solid;
+}
+.userCard__img img {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	object-fit: cover;
+}
+.userCard__content--bottom {
+	grid-area: 2/1/2/2;
+	width: 100%;
+	height: 100%;
+	background-color: cadetblue;
+}
