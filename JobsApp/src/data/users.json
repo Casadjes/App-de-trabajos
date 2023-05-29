@@ -10,8 +10,11 @@
 			"img": "https://images.pexels.com/photos/5378700/pexels-photo-5378700.jpeg",
 			"description": "Soy un desarrollador de software apasionado por la programación y el aprendizaje constante. Me encanta crear soluciones eficientes y elegantes para los problemas que se presentan en el desarrollo de software. Además, disfruto de trabajar en equipo y de compartir conocimientos con mis compañeros de trabajo.",
 			"job": "Desarrollador de Software",
+			"category": "software",
 			"hobbies": ["programación", "videojuegos", "lectura"],
-			"knowledge": ["Java", "Python", "JavaScript", "Node.js", "React"]
+			"knowledge": ["Java", "Python", "JavaScript", "Node.js", "React"],
+			"phoneNumber": "809-000-000",
+			"price": 100
 		},
 		{
 			"id": "2",
@@ -23,8 +26,11 @@
 			"img": "https://images.pexels.com/photos/5393594/pexels-photo-5393594.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 			"description": "Soy una diseñadora gráfica especializada en branding y diseño de interfaces de usuario. Me encanta crear diseños que combinen estética y funcionalidad para mejorar la experiencia del usuario. Además, disfruto de la ilustración y de la creación de personajes y mundos fantásticos.",
 			"job": "Diseñadora Gráfica",
+			"category": "diseño-grafico",
 			"hobbies": ["diseño gráfico", "ilustración", "lectura"],
-			"knowledge": ["Adobe Illustrator", "Adobe Photoshop", "Sketch", "Figma"]
+			"knowledge": ["Adobe Illustrator", "Adobe Photoshop", "Sketch", "Figma"],
+			"phoneNumber": "809-000-000",
+			"price": 150
 		},
 		{
 			"id": "3",
@@ -33,11 +39,14 @@
 			"lastName": "González",
 			"age": 30,
 			"email": "pedro.gonzalez@example.com",
-			"img": "https://images.pexels.com/photos/5792641/pexels-photo-5792641.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+			"img": "https://images.pexels.com/photos/1212984/pexels-photo-1212984.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 			"description": "Soy un arquitecto de software con experiencia en el diseño y desarrollo de sistemas complejos. Me apasiona la tecnología y disfruto de la creación de soluciones innovadoras y escalables. Además, creo que la comunicación efectiva y la colaboración son clave para el éxito de cualquier proyecto.",
 			"job": "Arquitecto de Software",
+			"category": "software",
 			"hobbies": ["programación", "música", "viajes"],
-			"knowledge": ["Java", "Python", "C++", "Docker", "Kubernetes"]
+			"knowledge": ["Java", "Python", "C++", "Docker", "Kubernetes"],
+			"phoneNumber": "809-000-000",
+			"price": 200
 		},
 		{
 			"id": "4",
@@ -48,9 +57,12 @@
 			"email": "laura.hernandez@example.com",
 			"img": "https://images.pexels.com/photos/6608313/pexels-photo-6608313.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 			"description": "Soy una periodista apasionada por los temas de actualidad y los derechos humanos. Me encanta contar historias que tengan impacto social y que contribuyan al debate público. Además, disfruto de la investigación y de profundizar en los temas que trato en mis reportajes.",
-			"job": "Periodista",
+			"job": "Periodismo",
+			"category": "periodismo",
 			"hobbies": ["periodismo", "lectura", "cine"],
-			"knowledge": ["Redacción", "Edición de video", "Edición de audio"]
+			"knowledge": ["Redacción", "Edición de video", "Edición de audio"],
+			"phoneNumber": "809-000-000",
+			"price": 250
 		},
 		{
 			"id": "5",
@@ -62,8 +74,11 @@
 			"img": "https://images.pexels.com/photos/5876695/pexels-photo-5876695.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 			"description": "Soy una diseñadora gráfica apasionada por la tipografía y la ilustración. Me encanta crear diseños que combinen colores vivos y tipografías llamativas para captar la atención del espectador. Además, disfruto mucho de la ilustración, ya sea en formato digital o tradicional.",
 			"job": "Diseñadora Gráfica",
+			"category": "diseño-grafico",
 			"hobbies": ["diseño gráfico", "ilustración", "tipografía"],
-			"knowledge": ["Adobe Illustrator", "Adobe Photoshop", "Adobe InDesign"]
+			"knowledge": ["Adobe Illustrator", "Adobe Photoshop", "Adobe InDesign"],
+			"phoneNumber": "809-000-000",
+			"price": 300
 		},
 		{
 			"id": "6",
@@ -74,16 +89,12 @@
 			"email": "pedro.martinez@example.com",
 			"img": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 			"description": "Soy un programador full-stack con experiencia en desarrollo web y móvil. Me encanta trabajar con tecnologías como React y React Native para crear aplicaciones atractivas y funcionales. Además, disfruto de la resolución de problemas y de crear soluciones elegantes y eficientes para los desafíos que se presentan.",
-			"job": "Desarrolador Web y Móvil",
+			"job": "Desarrolador Web",
+			"category": "desarrollo-web",
 			"hobbies": ["programación", "videojuegos", "música"],
-			"knowledge": [
-				"HTML",
-				"CSS",
-				"JavaScript",
-				"React",
-				"React Native",
-				"Node.js"
-			]
+			"knowledge": ["HTML", "CSS", "JavaScript", "React", "Next"],
+			"phoneNumber": "809-000-000",
+			"price": 350
 		},
 		{
 			"id": "7",
@@ -94,9 +105,12 @@
 			"email": "sofia.gonzalez@example.com",
 			"img": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 			"description": "Soy una periodista especializada en temas sociales y políticos. Me encanta contar historias que inspiren y muevan a la reflexión. Además, disfruto mucho de la investigación y de profundizar en los temas que trato en mis reportajes. Creo que el periodismo es una herramienta fundamental para construir una sociedad más justa y democrática.",
-			"job": "Periodista",
+			"job": "Periodismo",
+			"category": "periodismo",
 			"hobbies": ["periodismo", "lectura", "cine"],
-			"knowledge": ["Redacción", "Edición de video", "Edición de audio"]
+			"knowledge": ["Redacción", "Edición de video", "Edición de audio"],
+			"phoneNumber": "809-000-000",
+			"price": 400
 		},
 		{
 			"id": "8",
@@ -108,8 +122,11 @@
 			"img": "https://images.pexels.com/photos/7116213/pexels-photo-7116213.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 			"description": "Soy un desarrollador de software con experiencia en la creación de aplicaciones empresariales y de gestión. Me apasiona la tecnología y disfruto de la resolución de problemas complejos. Además, creo que la colaboración y el trabajo en equipo son fundamentales para el éxito de cualquier proyecto.",
 			"job": "Desarrolador de Software",
+			"category": "software",
 			"hobbies": ["programación", "ajedrez", "deportes"],
-			"knowledge": ["Java", "Spring", "SQL", "Git"]
+			"knowledge": ["Java", "Spring", "SQL", "Git"],
+			"phoneNumber": "809-000-000",
+			"price": 450
 		},
 		{
 			"id": "9",
@@ -121,8 +138,11 @@
 			"img": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 			"description": "Soy un desarrollador de software apasionado por la programación y el aprendizaje constante. Me encanta crear soluciones eficientes y elegantes para los problemas que se presentan en el desarrollo de software. Además, disfruto de trabajar en equipo y de compartir conocimientos con mis compañeros de trabajo.",
 			"job": "Desarrolador de Software",
+			"category": "software",
 			"hobbies": ["programación", "videojuegos", "lectura"],
-			"knowledge": ["Java", "Python", "JavaScript", "Node.js", "React"]
+			"knowledge": ["Java", "Python", "JavaScript", "Node.js", "React"],
+			"phoneNumber": "809-000-000",
+			"price": 500
 		},
 		{
 			"id": "10",
@@ -134,8 +154,11 @@
 			"img": "https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 			"description": "Soy una diseñadora gráfica especializada en branding y diseño de interfaces de usuario. Me encanta crear diseños que combinen estética y funcionalidad para mejorar la experiencia del usuario. Además, disfruto de la ilustración y de la creación de personajes y mundos fantásticos.",
 			"job": "Diseñadora Gráfica",
+			"category": "diseño-grafico",
 			"hobbies": ["diseño gráfico", "ilustración", "lectura"],
-			"knowledge": ["Adobe Illustrator", "Adobe Photoshop", "Sketch", "Figma"]
+			"knowledge": ["Adobe Illustrator", "Adobe Photoshop", "Sketch", "Figma"],
+			"phoneNumber": "809-000-000",
+			"price": 550
 		},
 		{
 			"id": "11",
@@ -147,8 +170,11 @@
 			"img": "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 			"description": "Soy un arquitecto de software con experiencia en el diseño y desarrollo de sistemas complejos. Me apasiona la tecnología y disfruto de la creación de soluciones innovadoras y escalables. Además, creo que la comunicación efectiva y la colaboración son clave para el éxito de cualquier proyecto.",
 			"job": "Arquitecto de Software",
+			"category": "software",
 			"hobbies": ["programación", "música", "viajes"],
-			"knowledge": ["Java", "Python", "C++", "Docker", "Kubernetes"]
+			"knowledge": ["Java", "Python", "C++", "Docker", "Kubernetes"],
+			"phoneNumber": "809-000-000",
+			"price": 600
 		},
 		{
 			"id": "12",
@@ -159,9 +185,12 @@
 			"email": "laura.hernandez@example.com",
 			"img": "https://images.pexels.com/photos/718978/pexels-photo-718978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 			"description": "Soy una periodista apasionada por los temas de actualidad y los derechos humanos. Me encanta contar historias que tengan impacto social y que contribuyan al debate público. Además, disfruto de la investigación y de profundizar en los temas que trato en mis reportajes.",
-			"job": "Periodista",
+			"job": "Periodismo",
+			"category": "periodismo",
 			"hobbies": ["periodismo", "lectura", "cine"],
-			"knowledge": ["Redacción", "Edición de video", "Edición de audio"]
+			"knowledge": ["Redacción", "Edición de video", "Edición de audio"],
+			"phoneNumber": "809-000-000",
+			"price": 660
 		},
 		{
 			"id": "13",
@@ -173,8 +202,11 @@
 			"img": "https://images.pexels.com/photos/2709388/pexels-photo-2709388.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 			"description": "Soy una desarrolladora web full-stack apasionada por la tecnología y el desarrollo de software. Me gusta trabajar en proyectos desafiantes que requieran creatividad y habilidades técnicas. Soy una persona comprometida y trabajadora, siempre dispuesta a aprender cosas nuevas.",
 			"job": "Desarrolador Web",
+			"category": "desarrollo-web",
 			"hobbies": ["programación", "música", "cine"],
-			"knowledge": ["HTML", "CSS", "JavaScript", "Node.js", "React"]
+			"knowledge": ["HTML", "CSS", "JavaScript", "Node.js", "React"],
+			"phoneNumber": "809-000-000",
+			"price": 700
 		},
 		{
 			"id": "14",
@@ -186,8 +218,11 @@
 			"img": "https://images.pexels.com/photos/718261/pexels-photo-718261.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 			"description": "Soy un desarrollador de software con experiencia en el desarrollo de aplicaciones móviles. Me gusta trabajar en proyectos desafiantes y en equipo. Soy una persona proactiva y autodidacta, siempre buscando mejorar mis habilidades y aprender cosas nuevas.",
 			"job": "Desarrolador de Software",
+			"category": "software",
 			"hobbies": ["programación", "deporte", "viajes"],
-			"knowledge": ["Swift", "Java", "Kotlin", "Objective-C", "React Native"]
+			"knowledge": ["Swift", "Java", "Kotlin", "Objective-C", "React Native"],
+			"phoneNumber": "809-000-000",
+			"price": 770
 		},
 		{
 			"id": "15",
@@ -199,8 +234,11 @@
 			"img": "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 			"description": "Soy una desarrolladora de software con experiencia en el desarrollo de aplicaciones web. Me gusta trabajar en proyectos desafiantes y en equipo. Soy una persona organizada y comprometida, siempre buscando mejorar mis habilidades y aportar valor a los proyectos en los que participo.",
 			"job": "Desarrolador de Software",
+			"category": "software",
 			"hobbies": ["programación", "lectura", "música"],
-			"knowledge": ["Python", "Django", "JavaScript", "React", "SQL"]
+			"knowledge": ["Python", "Django", "JavaScript", "React", "SQL"],
+			"phoneNumber": "809-000-000",
+			"price": 800
 		},
 		{
 			"id": "16",
@@ -212,8 +250,11 @@
 			"img": "https://images.pexels.com/photos/1405963/pexels-photo-1405963.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 			"description": "Soy un desarrollador de software con experiencia en el desarrollo de aplicaciones empresariales. Me gusta trabajar en proyectos desafiantes y en equipo, y siempre busco aportar valor al negocio de mis clientes. Soy una persona comprometida y orientada a resultados.",
 			"job": "Desarrolador de Software",
+			"category": "software",
 			"hobbies": ["programación", "deporte", "viajes"],
-			"knowledge": ["Java", "Spring Boot", "Kotlin", "JavaScript", "React"]
+			"knowledge": ["Java", "Spring Boot", "Kotlin", "JavaScript", "React"],
+			"phoneNumber": "809-000-000",
+			"price": 850
 		},
 		{
 			"id": "17",
@@ -225,6 +266,7 @@
 			"img": "https://images.pexels.com/photos/1624229/pexels-photo-1624229.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 			"description": "Soy una diseñadora gráfica con experiencia en la creación de materiales visuales para marcas y productos. Me encanta trabajar en equipo y colaborar en proyectos creativos y desafiantes. Soy una persona comprometida y apasionada por mi trabajo, siempre buscando mejorar y aprender cosas nuevas.",
 			"job": "Diseñadora Gráfica",
+			"category": "diseño-grafico",
 			"hobbies": ["diseño", "arte", "música"],
 			"knowledge": [
 				"Adobe Photoshop",
@@ -232,7 +274,9 @@
 				"Adobe InDesign",
 				"CorelDRAW",
 				"Sketch"
-			]
+			],
+			"phoneNumber": "809-000-000",
+			"price": 900
 		},
 		{
 			"id": "18",
@@ -244,6 +288,7 @@
 			"img": "https://images.pexels.com/photos/32976/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 			"description": "Soy un editor de video con experiencia en la creación de contenido para redes sociales y plataformas digitales. Me gusta trabajar en proyectos desafiantes y en equipo, y siempre busco mejorar mis habilidades y aprender cosas nuevas. Soy una persona creativa y apasionada por el mundo audiovisual.",
 			"job": "Editor de Video",
+			"category": "audio-video",
 			"hobbies": ["edición", "cine", "música"],
 			"knowledge": [
 				"Adobe Premiere Pro",
@@ -251,18 +296,21 @@
 				"Final Cut Pro",
 				"DaVinci Resolve",
 				"Avid Media Composer"
-			]
+			],
+			"phoneNumber": "809-000-000",
+			"price": 950
 		},
 		{
 			"id": "19",
 			"slogan": "El diseño es muy simple. Por eso es complicado.",
 			"name": "Mercedes",
-			"lastName": "Hernández",
+			"lastName": "Mclee",
 			"age": 27,
 			"email": "maria.hernandez@example.com",
 			"img": "https://images.pexels.com/photos/8424940/pexels-photo-8424940.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 			"description": "Soy una diseñadora gráfica y editora de fotografía con experiencia en la creación de contenido para redes sociales y plataformas digitales. Me gusta trabajar en proyectos creativos y desafiantes, y siempre busco aportar valor a mis clientes y colaboradores. Soy una persona apasionada por el diseño y la fotografía, siempre buscando mejorar mis habilidades y aprender cosas nuevas.",
 			"job": "Diseñadora Gráfica",
+			"category": "diseño-grafico",
 			"hobbies": ["diseño", "fotografía", "arte"],
 			"knowledge": [
 				"Adobe Photoshop",
@@ -270,7 +318,9 @@
 				"Capture One",
 				"Luminar",
 				"GIMP"
-			]
+			],
+			"phoneNumber": "809-000-000",
+			"price": 900
 		},
 		{
 			"id": "20",
@@ -282,8 +332,11 @@
 			"img": "https://images.pexels.com/photos/936090/pexels-photo-936090.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 			"description": "Soy un diseñador de sonido con experiencia en la creación de efectos de sonido, bandas sonoras y mezclas de audio para producciones audiovisuales. Me gusta trabajar en proyectos desafiantes y creativos, y siempre busco mejorar mis habilidades y ,aprender cosas nuevas. Soy una persona apasionada por el mundo del audio, siempre buscando nuevas formas de expresión y creatividad.",
 			"job": "Diseñador de Sonido",
+			"category": "audio-video",
 			"hobbies": ["música", "audio", "cine"],
-			"knowledge": ["Avid Pro Tools", "Adobe Audition"]
+			"knowledge": ["Avid Pro Tools", "Adobe Audition"],
+			"phoneNumber": "809-000-000",
+			"price": 400
 		}
 	]
 }

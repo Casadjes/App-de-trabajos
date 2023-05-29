@@ -1,7 +1,8 @@
 import { Card } from "./Card";
 import { ImSpinner9 } from "react-icons/im";
 import "./CardContainer.css";
-export function CardContainer({ data, isLoading }) {
+import Proptypes from "prop-types";
+export function CardContainer({ isLoading, filteredUsers }) {
 	return (
 		<div className='cardContainer'>
 			{isLoading ? (
@@ -10,17 +11,22 @@ export function CardContainer({ data, isLoading }) {
 					Loading...
 				</div>
 			) : (
-				data.map((userData) => (
+				filteredUsers.map((user) => (
 					<Card
-						key={userData.id}
-						name={userData.name}
-						lastName={userData.lastName}
-						img={userData.img}
-						job={userData.job}
-						id={userData.id}
+						key={user.id}
+						name={user.name}
+						lastName={user.lastName}
+						img={user.img}
+						job={user.job}
+						id={user.id}
 					/>
 				))
 			)}
 		</div>
 	);
 }
+
+CardContainer.propTypes = {
+	filteredUsers: Proptypes.array,
+	isLoading: Proptypes.bool
+};

@@ -1,7 +1,7 @@
 .filter {
 	width: 100%;
 	height: 100%;
-	background-color: #fafafa;
+	background-color: #f0ecfc;
 	padding-right: 20px;
 }
 
@@ -19,23 +19,72 @@
 	font-weight: 500;
 	font-size: 18px;
 }
+
 .filter__subTitle {
 	width: 100%;
 	display: flex;
 	align-items: center;
 	padding: 20px;
+	margin: 10px 0;
 	padding-left: 0;
+	background-color: #fff;
+	border-radius: 12px;
+	border-bottom: 2px solid #ccc;
+	transition: background-color 0.5s ease, box-shadow 0.3s ease;
+}
+.filter__subTitle:hover {
+	background-color: #f9f9f9;
+	box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+.filter__subTitle.active {
+	box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
 }
 
 .filter__subTitle h4 {
+	padding-left: 10px;
 	font-weight: 500;
 	color: #333;
 }
 
+.filter__category--arrow {
+	font-size: 20px;
+	transition: transform 0.5s ease;
+}
+.filter__category--arrow.active {
+	transform: rotate(180deg);
+}
 .filter__components--container {
 	width: 100%;
 	height: auto;
 	display: flex;
 	flex-direction: column;
-	gap: 15px;
+	gap: 7px;
+	position: relative;
+	overflow: hidden;
+	max-height: 0;
+	padding: 3px;
+	transition: max-height 0.5s ease;
+}
+
+/* added */
+
+.filter__components--container {
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.filter__components--container * {
+	opacity: 0;
+}
+.filter__components--container.active {
+	max-height: 700px;
+	transition: max-height 0.5s ease;
+}
+.filter__components--container.active * {
+	opacity: 1;
+}
+
+@media (max-width: 1020px) {
+	.filter {
+		padding: 0;
+	}
 }

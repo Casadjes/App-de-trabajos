@@ -1,0 +1,21 @@
+.home {
+	width: 100%;
+	height: 100%;
+	display: grid;
+	grid-template-columns: 25% 1fr;
+}
+
+@media (max-width: 1020px) {
+	.home {
+		grid-template-columns: 1fr; /* Cambia a una sola columna */
+		grid-template-rows: auto auto; /* Dos filas automáticas */
+	}
+
+	.userFilter {
+		grid-row: 1;
+	}
+
+	.card-container {
+		grid-row: 2;
+	}
+}

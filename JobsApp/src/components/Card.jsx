@@ -1,4 +1,5 @@
 import { BsStarFill, BsStarHalf } from "react-icons/bs";
+import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 import "./Card.css";
 export function Card({
@@ -15,18 +16,26 @@ export function Card({
 				<p className='userName'>{name + " " + lastName}</p>
 				<p className='card__info--job'>{job}</p>
 				<div className='card__info--rating'>
-					<BsStarFill color='#3e3e53' />
-					<BsStarFill color='#3e3e53' />
-					<BsStarFill color='#3e3e53' />
-					<BsStarFill color='#3e3e53' />
+					<BsStarFill color='#1d1d1d' />
+					<BsStarFill color='#1d1d1d' />
+					<BsStarFill color='#1d1d1d' />
+					<BsStarFill color='#1d1d1d' />
 
-					<BsStarHalf color='#3e3e53' />
+					<BsStarHalf color='#1d1d1d' />
 					<span>rating</span>
 				</div>
-				<Link to={id}>
+				<Link to={"/user/" + id}>
 					<button className='seeMore'>Ver más</button>
 				</Link>
 			</div>
 		</div>
 	);
 }
+
+Card.propTypes = {
+	name: PropTypes.string,
+	lastName: PropTypes.string,
+	img: PropTypes.string,
+	job: PropTypes.string,
+	id: PropTypes.string
+};
